@@ -1,0 +1,13 @@
+##Kmom01
+
+Nu har jag genomfört kmom01 inom javascript1, ett programmeringsspråk som används mest på klientsidan men finns också på serversidan.  JavaScript är väldigt populär inom webbprogrammering idag och gör bl.a. att webbsidor och webbappar blir interaktiva.  JavaScript jobbar med sidans DOM, document object model, för att påverka sidans olika element genom användarens interaktioner.  JavaScript kan användas inom både ”front-end” och ”back-end” vilket visar hur flexibelt språket är och det finns många olika bibliotek och Frameworks baserat på JavaScript som underlättar komplexa applikationer.
+
+Den utvecklingsmiljö jag använder mest är MacOS ihop med Atom, Safari och Terminal.  Jag har installerat Chrome och Firefox för att testa kod samtidigt som jag har tillgång till en Windowsmiljö för att testa om saker fungerar där med.  Hittills har detta fungerat utmärkt för mig, jag trivs bra.
+
+Jag är bekant med CSS, HTML och JavaScript genom kursen htmlphp, Codecademy mm samt ett eget intresse att lära mig allt inom webbprogrammering.  Jag har tidigare skapat olika testsidor som använder JavaScript för att skapa en mer dynamisk upplevelse, som tex en dropdown meny för mobila plattformar.  Jag känner mig trygg inom dessa språk men har hittills bara använt JavaScript på en låg nivå, jag ser fram emot vilka spännande saker jag kommer lära mig framöver.
+
+Codepen har jag använt ett par gånger förut men känner att jag kommer utnyttja detta verktyget mycket mer framöver, framförallt för att testa kod och dela med mig enklare.  Jag tycker att Codepen är väldigt enkelt och bra uppbyggt för att jobba med, väldigt smidigt.
+
+Jag har läst en hel del på detta kursmoment och samlat på mig material och länkar för senare användning.  Jag har skapat ett enkelt Sandbox som en lekplats för JavaScript, där jag har skrivit kod för att presentera dagens datum och tid, formaterad som ”yyyy/mm/dd” och ”hh:mm:ss”.  Jag skapade en ”if statement” för att kolla om dagens dag är enkelsiffrig eller inte för att sedan lägga till en nolla innan dagens siffra.  Labben gick också väldig bra, jag ser fram emot lite svårare frågor nästa gång.  Jag skapade en me-sida, som är anpassad efter den me-sida jag gjorde på kursen htmlphp.  Jag tänkte att det skulle vara bra att utveckla den ännu mer ihop med JavaScript kursen, som tex. förbättrat utseende och funktionalitet på mindre skärmar.  Jag har uppgraderat sidan till att använda Markdown som bas för mina redovisningstexter.
+
+Min TIL för detta kurs moment är att använda ”use strict” för att exekvera kod säkrare där dålig syntax skapar ett fel istället för att släppas förbi.

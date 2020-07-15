@@ -1,0 +1,195 @@
+html {
+    background-color: black;
+}
+
+h1,
+h3,
+a {
+    color: white;
+}
+
+body {
+    background-color: #3d3d3d;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+.content {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.choice {
+    margin-bottom: 5em;
+}
+
+.choice ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.choice li {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.choice a {
+    width: 4em;
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.choice a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.country-flag {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.country-flag p {
+    font-size: 2em;
+}
+
+.sweden {
+    position: relative;
+    margin-top: 6.25px;
+    width: 300px;
+    height: 187.5px;
+    background-color: #0f6ba5;
+    float: left;
+}
+
+.sweden .part1 {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    height: 37.5px;
+    width: 100%;
+    background-color: #fdcb2f;
+}
+
+.sweden .part2 {
+    position: absolute;
+    top: 0;
+    left: 93.75px;
+    height: 187.5px;
+    width: 37.5px;
+    background-color: #fdcb2f;
+}
+
+.italy {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    float: right;
+    background-color: #fff;
+}
+
+.italy .part1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100px;
+    background-color: #139149;
+}
+
+.italy .part2 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    height: 200px;
+    width: 100px;
+    background-color: #cc2e3b;
+}
+
+.england {
+    position: relative;
+    margin-top: 10px;
+    width: 300px;
+    height: 180px;
+    float: left;
+    background-color: #fff;
+}
+
+.england .part1 {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    height: 36px;
+    width: 300px;
+    background-color: #ca0813;
+}
+
+.england .part2 {
+    position: absolute;
+    top: 0;
+    left: 132px;
+    height: 180px;
+    width: 36px;
+    background-color: #ca0813;
+}
+
+.japan {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    float: right;
+    background-color: #fff;
+}
+
+.japan .part1 {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #ba0831;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+footer a {
+    padding: 1em;
+}
+
+@media (max-width: 900px) {
+    .content {
+        width: auto;
+        height: 1000px;
+        border: none;
+        border-radius: 0;
+    }
+
+    .choice li {
+        display: block;
+    }
+}

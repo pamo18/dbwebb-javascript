@@ -1,0 +1,134 @@
+html {
+    background-color: black;
+}
+
+h1,
+h3,
+a {
+    color: white;
+}
+
+body {
+    background-color: #3d3d3d;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.title {
+    color: #252588;
+}
+
+.content {
+    border: 2px solid black;
+    background-color: #eee;
+    margin: 0 auto;
+    height: 1100px;
+    width: 1100px;
+    border-radius: 30px;
+    margin-bottom: 1em;
+}
+
+.man {
+    text-align: center;
+}
+
+.left {
+    text-align: center;
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.char {
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    font-size: 1.5em;
+    border: 1px black solid;
+    margin: 2px;
+    background-color: grey;
+    color: black;
+}
+
+.active:hover {
+    background-color: blue;
+    color: white;
+}
+
+#hangman_state {
+    padding-top: 1em;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+.taken {
+    background-color: red;
+    color: black;
+}
+
+.taken:hover {
+    background-color: red;
+    color: black;
+}
+
+.match {
+    background-color: green;
+    color: white;
+}
+
+.match:hover {
+    background-color: green;
+    color: white;
+}
+
+#fail {
+    font-size: 3em;
+    color: red;
+}
+
+#success {
+    font-size: 3em;
+    color: green;
+}
+
+.restart {
+    color: blue;
+    font-size: 1.5em;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+footer a {
+    padding: 1em;
+}
+
+#hang_hill,
+#hang_construction,
+#hang_rope,
+#hang_rightarm,
+#hang_leftarm,
+#hang_rightleg,
+#hang_leftleg,
+#hang_body,
+#hang_head {
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    .content {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <title>Javascript 1 - Kmom03</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <h1>Paul's Sandbox 3</h1>
+    <h3>Dice Program</h3>
+    <div id="content" class="content">
+        <div class="options">
+            <label>Dice</label>
+            <select id="numDice">
+              <option value="1">Single</option>
+              <option value="2">Double</option>
+            </select>
+            <label>Sides</label>
+            <select id="numSides">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <label>Times</label>
+            <input id="numTimes" value="1">
+        </div>
+        <div class="dice">
+            <div id="single">
+                <img class="diceImage" src="img/dice1.png" alt="dice">
+            </div>
+            <div id="double">
+                <img class="diceImage" src="img/dice1.png" alt="dice">
+            </div>
+            <p>Press Enter to roll the dice</p>
+        </div>
+        <div class="resultBox">
+            <h2 id="diceThrow">Dice Results:</h2>
+            <p id="result"></p>
+            <p id="rolls"></p>
+            <p id="total"></p>
+            <p id="average"></p>
+            <button type="button" id="reset-stats">Reset Stats</button>
+            <button type="button" id="reset-all">Reset All</button>
+        </div>
+    </div>
+    <footer>
+       <a href="http://validator.w3.org/check/referer">HTML5</a> |
+       <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
+       <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance">Unicorn</a>
+       <a href="https://jshint.com">JS Hint</a>
+       <a href="https://codepen.io/GreatPaMo/pen/pQpEGb">Codepen</a>
+   </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
